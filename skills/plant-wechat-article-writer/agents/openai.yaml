@@ -1,0 +1,7 @@
+interface:
+  display_name: "植物公众号文章整理"
+  short_description: "将植物研究素材整理为微信公众号文章"
+  brand_color: "#2E7D32"
+  default_prompt: "使用 $plant-wechat-article-writer 将我提供的植物研究素材整理成微信公众号文章，并保存为以文章标题命名的 Markdown 文件。"
+policy:
+  allow_implicit_invocation: true

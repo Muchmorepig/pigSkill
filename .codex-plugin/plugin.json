@@ -1,0 +1,36 @@
+{
+  "name": "pig-skill",
+  "version": "0.1.0",
+  "description": "A growing collection of reusable research, writing, and productivity skills.",
+  "author": {
+    "name": "Muchun Wan",
+    "email": "muchmorepig@gmail.com",
+    "url": "https://github.com/Muchmorepig"
+  },
+  "repository": "https://github.com/Muchmorepig/pigSkill",
+  "keywords": [
+    "agent-skills",
+    "research",
+    "writing",
+    "plant-science",
+    "wechat"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "pigSkill",
+    "shortDescription": "Research and writing skills by Muchmorepig",
+    "longDescription": "A growing collection of reusable skills for scientific research, writing, analysis, and productivity.",
+    "developerName": "Muchmorepig",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/Muchmorepig/pigSkill",
+    "defaultPrompt": [
+      "Use pigSkill to organize plant research materials into a WeChat article.",
+      "Use the appropriate pigSkill workflow for this research or writing task."
+    ],
+    "brandColor": "#2E7D32"
+  }
+}

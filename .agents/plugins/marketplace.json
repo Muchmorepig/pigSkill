@@ -1,0 +1,20 @@
+{
+  "name": "pig-skill-marketplace",
+  "interface": {
+    "displayName": "pigSkill"
+  },
+  "plugins": [
+    {
+      "name": "pig-skill",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
