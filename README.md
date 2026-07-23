@@ -8,31 +8,6 @@
 |---|---|---|
 | `plant-wechat-article-writer` | 将植物研究周报、论文清单和科研素材整理为微信公众号 Markdown 文章 | [`skills/plant-wechat-article-writer`](skills/plant-wechat-article-writer) |
 
-## 目录结构
-
-```text
-pigSkill/
-├── .codex-plugin/
-│   └── plugin.json
-├── .agents/
-│   └── plugins/
-│       └── marketplace.json
-├── skills/
-│   └── plant-wechat-article-writer/
-│       ├── SKILL.md
-│       ├── README.md
-│       ├── agents/
-│       │   └── openai.yaml
-│       └── references/
-│           ├── article-structures.md
-│           ├── editorial-style.md
-│           ├── quality-checklist.md
-│           └── research-entry-patterns.md
-└── scripts/
-    ├── install-codex-skill.sh
-    └── install-codex-skill.ps1
-```
-
 ## 安装单个 Skill
 
 在 Codex 中运行：
